@@ -44,7 +44,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	l
+
 	client := http.Client{}
 	getNetworks.Header.Add("X-Cisco-Meraki-API-Key", DASHBOARD_API_KEY)
 	requestResult, err := client.Do(getNetworks)
