@@ -2,14 +2,13 @@
 Pulls list of networks for org using Meraki dashboard API. Type in the name of a network and watch it disappear.
 
 ## Getting this code to run
-You will need to contact Meraki Support to enable API access. Once it is enabled you will be able to generate an API access key on the profile page. Support will be able to provide the org ID and shard ID.
+Please contact Meraki Support to enable API access and retrieve your org ID and shard ID. 
+Once API is enabled you will be able to generate an API access key from the profile page.
 
+You will need to plug this information in as environment variables in your OS.
 
-* DASHBOARD_API_KEY
-* DASHBOARD_API_SHARD_ID
-* DASHBOARD_API_ORG_ID
+If you are on Mac add to your .bash_profile
 
-If you are on Linux/Mac
 export DASHBOARD_API_KEY="myAPIkey"
 
 export DASHBOARD_API_SHARD_ID="myShardID"
