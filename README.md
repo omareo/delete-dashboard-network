@@ -7,6 +7,8 @@ Once API is enabled you will be able to generate an API access key from the prof
 
 You will need to plug this information in as environment variables in your OS.
 
+
+### Setting Environment Variables on Mac:
 If you are on Mac add to your .bash_profile
 
 export DASHBOARD_API_KEY="myAPIkey"
