@@ -1,3 +1,4 @@
+// Will create binary with ENV variables baked in.
 package main
 
 import (
